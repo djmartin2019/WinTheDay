@@ -1,0 +1,30 @@
+.navbar{
+	display: flex;
+	align-items: center;
+	background-color: #13293D;	
+}
+
+.navbar-header {
+	margin-right: auto;
+	color: white;
+}
+
+.navbar-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.navbar-links li {
+	float: left;
+}
+.navbar-links li a {
+	display: block;
+	color: white;	
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navbar-links li a:hover {
+	background-color: #1B98E0;
+	color: black;
+}
